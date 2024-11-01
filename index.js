@@ -4,8 +4,9 @@
 //Async Js coding
 //Map, filter, forEach, indexOf, find
 
-var a = [1, 2, 3]
-
+//--------------------------------------
+// Array Functions
+// var a = [1, 2, 3]
 // a.forEach((num) => {
 //     console.log(num + 'Hello');
 // });
@@ -24,4 +25,25 @@ var a = [1, 2, 3]
 
 // var b = a.indexOf(20)
 
-console.log(b)
+// -------------------------------------
+//Objects
+
+// var a = {
+//     name : "Likhith",
+//     age: 23,
+//     profession: "SWE"
+// }
+
+// a.age accesssign with "."
+// a["name"] another method to access
+
+// Object.freeze(a), to prevent changing of value in object
+
+// Async Js
+// const getUser = async () => {
+//     var result = await fetch('https://randomuser.me/api/');
+//     var data = await result.json();
+//     console.log(data);
+// }
+
+// getUser();
